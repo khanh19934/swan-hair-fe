@@ -1,0 +1,35 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+p {
+  margin: 0;
+}
+
+body {
+  //   padding-top: 56px;
+
+  font-size: 40%; //1 rem = 10px 10px/16 = 62.5 %
+  font-family: "Open Sans", sans-serif;
+
+  @include media-breakpoint-up(xs) {
+    // Styles
+    font-family: "Open Sans", sans-serif;
+    font-size: 40%;
+  }
+
+  @include media-breakpoint-up(sm) {
+    // Styles
+    font-family: "Open Sans", sans-serif;
+    font-size: 60%;
+  }
+
+  @include media-breakpoint-up(md) {
+    font-family: "Open Sans", sans-serif;
+    font-size: 62.5%;
+  }
+}
