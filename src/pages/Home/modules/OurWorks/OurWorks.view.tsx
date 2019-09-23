@@ -3,7 +3,7 @@ import * as React from "react";
 const OurWorks: React.FC = () => {
   return (
     <div className="container-fluid pt-4 pb-4">
-      <div className="row ">
+      <div className="row no-gutters">
         <div className="col-md-12">
           <h3 className="text-center text-uppercase">Our works</h3>
           <p className="text-center primary-description">
@@ -13,7 +13,7 @@ const OurWorks: React.FC = () => {
         </div>
       </div>
 
-      <div className="row">
+      <div className="row no-gutters">
         <div className="col-md"></div>
         <div className="col-md"></div>
         <div className="col-md"></div>

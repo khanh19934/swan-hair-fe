@@ -9,7 +9,7 @@ const Employees: React.FC = () => {
           Far far away, behind the word mountains, far from the countries
           Vokalia and Consonantia, there live the blind texts
         </p>
-        <div className="row employees__row">
+        <div className="row employees__row no-gutters">
           <div className="col-md">
             <div className="staff">
               <div

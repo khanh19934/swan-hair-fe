@@ -10,7 +10,7 @@ const Promotion: React.FC = () => (
   >
     <div className="overlay"></div>
     <div className="container">
-      <div className="row justify-content-end">
+      <div className="row no-gutters justify-content-end">
         <div className="col-md-5 discount">
           <h3>Save up to 25% Off</h3>
           <h2 className="mb-4">Student Discount</h2>

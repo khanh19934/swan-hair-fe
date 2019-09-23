@@ -3,7 +3,7 @@ import * as React from "react";
 const ProductServices: React.FC = () => {
   return (
     <div className="container">
-      <div className="row product-services">
+      <div className="row no-gutters product-services">
         <div className="col-md text-center">
           <h5>Cắt tóc nam/nữ</h5>
           <p>
